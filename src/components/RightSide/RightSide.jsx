@@ -16,6 +16,7 @@ function RightSide() {
         <img src={Comment} alt="" />
       </div>
       <TrendCard />
+      <button className="button r-button">Share</button>
     </div>
   );
 }

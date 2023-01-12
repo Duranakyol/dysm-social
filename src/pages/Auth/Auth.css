@@ -1,0 +1,38 @@
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* left side */
+
+.a-left {
+  gap: 2rem;
+}
+
+.a-left > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.Webname > span {
+  font-size: 3rem;
+  color: #eee;
+  background-image: var(--buttonBg);
+  background-size: 100%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.Webname > h5 {
+  font-size: 1.3rem;
+}
