@@ -14,7 +14,10 @@ function ProfileCard() {
       </div>
 
       <div className="ProfileName">
-        <span>Angela Ulrich</span>
+        <span>
+          {" "}
+          <a href="/profile">Angela Ulrich</a>{" "}
+        </span>
         <span>Frontend Web Entwickler</span>
       </div>
 
