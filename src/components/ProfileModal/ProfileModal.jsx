@@ -1,4 +1,5 @@
 import { Modal, useMantineTheme } from "@mantine/core";
+import "./ProfileModal.css";
 
 function ProfileModal({ modalOpened, setModalOpened }) {
   const theme = useMantineTheme();
@@ -16,7 +17,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
       opened={modalOpened}
       onClose={() => setModalOpened(false)}
     >
-      <form className="infoForm">
+      <div className="infoForm">
         <h3>Your info</h3>
 
         <div>
@@ -69,14 +70,17 @@ function ProfileModal({ modalOpened, setModalOpened }) {
         </div>
 
         <div>
-          Profile Image
+          <span>Profile Image :</span>
           <input type="file" name="profileImg" />
-          Cover Image
+        </div>
+        <div>
+          <span>Cover Image :</span>
           <input type="file" name="coverImg" />
         </div>
-
-        <button className="button infoButton">Update</button>
-      </form>
+        <div>
+          <button className="button infoButton">Update</button>
+        </div>
+      </div>
     </Modal>
   );
 }

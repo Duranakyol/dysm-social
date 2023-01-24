@@ -12,7 +12,9 @@ function RightSide() {
   return (
     <div className="RightSide">
       <div className="navIcons">
-        <img src={Home} alt="" />
+        <a href="/home">
+          <img src={Home} alt="" />
+        </a>
         <UilSetting />
         <img src={Noti} alt="" />
         <a href="/">

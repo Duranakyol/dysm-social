@@ -39,7 +39,9 @@ const InfoCard = () => {
         </span>
         <span>Siephi Software Solutions</span>
       </div>
-      <button className="button logout-button">Logout</button>
+      <a href="/" className="button logout-button">
+        Logout
+      </a>
     </div>
   );
 };

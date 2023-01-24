@@ -1,0 +1,26 @@
+.infoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 100px;
+}
+
+.infoForm > h3 {
+  color: red;
+  margin-left: 140px;
+}
+
+.infoForm > div > input {
+  margin-left: 10px;
+  padding: 3px 0;
+}
+
+.infoForm > div > span {
+  color: chocolate;
+  border-bottom: 1px solid chocolate;
+}
+
+.infoButton {
+  padding: 6px 20px;
+  margin-left: 140px;
+}
