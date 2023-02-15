@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-grow: 1;
+  flex-wrap: wrap;
   gap: 4rem;
   position: relative;
 }
@@ -91,4 +93,7 @@
   cursor: pointer;
   font-weight: bold;
   border-radius: 4px;
+}
+
+@media (max-width: 880px) {
 }

@@ -8,7 +8,9 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <div className="Profile">
-      <ProfileLeft />
+      <div>
+        <ProfileLeft />
+      </div>
       <div className="profile-center">
         <ProfileCard />
         <PostSide />

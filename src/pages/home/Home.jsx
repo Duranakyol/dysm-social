@@ -7,9 +7,15 @@ import "./Home.css";
 function Home() {
   return (
     <div className="Home">
-      <ProfileSide />
-      <PostSide />
-      <RightSide />
+      <div className="profileSide">
+        <ProfileSide />
+      </div>
+      <div className="postSide">
+        <PostSide />
+      </div>
+      <div className="rightSide">
+        <RightSide />
+      </div>
     </div>
   );
 }

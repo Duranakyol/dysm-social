@@ -7,9 +7,15 @@ import "./ProfilSide.css";
 function ProfileSide() {
   return (
     <div className="ProfilSide">
-      <LogoSearch />
-      <ProfileCard />
-      <FollowersCard />
+      <div>
+        <LogoSearch />
+      </div>
+      <div>
+        <ProfileCard />
+      </div>
+      <div>
+        <FollowersCard />
+      </div>
     </div>
   );
 }

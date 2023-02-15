@@ -24,3 +24,10 @@
   margin-top: 6rem;
   align-self: flex-end;
 }
+
+@media (max-width: 1200px) {
+  .InfoCard {
+    justify-content: center;
+    align-items: center;
+  }
+}
