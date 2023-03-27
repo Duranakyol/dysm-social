@@ -18,3 +18,13 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 720px) {
+  .Profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

@@ -1,18 +1,21 @@
+.myModal {
+  width: 100%;
+}
+
 .infoForm {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-left: 100px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .infoForm > h3 {
   color: red;
-  margin-left: 140px;
 }
 
 .infoForm > div > input {
-  margin-left: 10px;
-  padding: 3px 0;
+  margin-right: 1rem;
 }
 
 .infoForm > div > span {
@@ -22,5 +25,10 @@
 
 .infoButton {
   padding: 6px 20px;
-  margin-left: 140px;
+}
+
+@media (max-width: 520px) {
+  .infoForm {
+    margin-left: 4rem;
+  }
 }
