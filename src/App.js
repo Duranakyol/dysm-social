@@ -4,6 +4,7 @@ import Profile from "./pages/Profile/Profile";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SignUp from "./pages/Auth/Signup/Signup";
 import Login from "./pages/Auth/Login";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/home" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
     </div>
