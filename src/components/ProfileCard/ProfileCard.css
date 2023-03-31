@@ -94,8 +94,4 @@
 }
 
 @media (max-width: 520px) {
-  .ProfileCard {
-    width: 70%;
-    margin-left: 1.2rem;
-  }
 }

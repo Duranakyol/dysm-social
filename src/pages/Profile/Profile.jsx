@@ -8,14 +8,20 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <div className="Profile">
-      <div>
+      <div className="profileLeft">
         <ProfileLeft />
       </div>
       <div className="profile-center">
-        <ProfileCard />
-        <PostSide />
+        <div className="profileCard">
+          <ProfileCard />
+        </div>
+        <div className="postSide2">
+          <PostSide />
+        </div>
       </div>
-      <RightSide />
+      <div className="rightSide2">
+        <RightSide />
+      </div>
     </div>
   );
 };

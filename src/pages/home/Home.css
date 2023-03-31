@@ -33,3 +33,15 @@
     width: 100%;
   }
 }
+
+@media (max-width: 720px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .profileSide {
+    margin-right: 1.7rem;
+  }
+}

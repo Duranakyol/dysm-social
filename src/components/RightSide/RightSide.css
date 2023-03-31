@@ -20,10 +20,3 @@
   height: 1.5rem;
   cursor: pointer;
 }
-
-@media (max-width: 520px) {
-  .RightSide {
-    width: 80%;
-    margin-right: 6rem;
-  }
-}
