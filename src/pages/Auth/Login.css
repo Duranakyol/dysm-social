@@ -7,6 +7,27 @@
   flex-wrap: wrap;
   gap: 4rem;
   position: relative;
+  background: hsla(281, 37%, 45%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(281, 37%, 45%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(281, 37%, 45%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(281, 37%, 45%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83489E", endColorstr="#C5302E", GradientType=1 );
 }
 
 .Auth > div {
@@ -93,7 +114,4 @@
   cursor: pointer;
   font-weight: bold;
   border-radius: 4px;
-}
-
-@media (max-width: 880px) {
 }
